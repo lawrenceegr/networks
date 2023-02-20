@@ -5,8 +5,8 @@ void setup()
   Serial.begin(9600);
   Serial.println();
 
-  // WiFi.begin("WYN", "hB@6061?23");
-   WiFi.begin("Marcus", "larry5145");
+  WiFi.begin("SSID", "WIFI-PASSWORD");
+
 
   Serial.print("Connecting");
   while (WiFi.status() != WL_CONNECTED)
